@@ -11,7 +11,7 @@ Target users are mostly dormitory inhabitants who has to share amenities.
 
 # PURPOSE
 
-To make lives more convenient with simplicity.
+To ease the congestion of amenity usages at dormitory with an appointment system.
 
 # PLANNING PROCESS
 
