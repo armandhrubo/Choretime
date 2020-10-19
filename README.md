@@ -23,7 +23,7 @@ HTML/CSS, PHP, MySQL.
 
 # DOCUMENTATION 
 
-To-be added.
+The user will login to the Web app. After logging in, they will click on the tab on the top header for amenities. Then, they will choose between cooking and Laundry. Based on their selection, they will be able to see if the status of cooking or laundry is busy presently. If it's occupied, they will make an appointment for a certain time. 35 minutes is allocated to cooking, 45 mins allocated for laundry. Once their chore is finished, they will click "Finish". So, next user can have their turn.
 
 # PLANNED FOLLOW-UP
 
