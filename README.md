@@ -15,7 +15,9 @@ To ease the congestion of amenity usages at dormitory with an appointment system
 
 # PLANNING PROCESS
 
-I will start off writing the back-end codes, at first.Within the first week. On week 2, I will hopefully accomplish most of the backend tasks and have a prototype demo ready with UI. I will utilise the third week for testing and more backend work, seek and resolve any issues that  may occur. For the fourth week, I will utilise the time for finalization of the UI and submission.
+I will start off writing the back-end codes, at first. On week 2, I will hopefully accomplish most of the backend tasks and have a prototype demo ready with UI. I will utilise the third week for testing and more backend work, seek and resolve any issues that  may occur. For the fourth week, I will utilise the time for finalization of the UI and submission.
+
+24/10/2020 - UI ready with back-end codes.
 
 # TECHNOLOGY STACK
 
