@@ -19,6 +19,8 @@ I will start off writing the back-end codes, at first. On week 2, I will hopeful
 
 24/10/2020 - UI ready with back-end codes.
 
+03/11/2020 - Small revamp of UI for a more intuitive experience.
+
 # TECHNOLOGY STACK
 
 HTML/CSS, PHP, MySQL.
