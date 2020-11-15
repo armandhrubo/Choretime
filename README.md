@@ -23,6 +23,8 @@ I will start off writing the back-end codes, at first. On week 2, I will hopeful
 
 10/11/2020 - Bug fixing and final testing.
 
+14/11/2020 - Adding message board functionality for a better user experience
+
 # TECHNOLOGY STACK
 
 HTML/CSS, PHP, MySQL.
