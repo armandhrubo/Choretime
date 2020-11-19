@@ -1,0 +1,308 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#register_div{
+	display: none;
+}
+
+.no-padding{
+	padding: 0;
+}
+
+h2.logo-login{
+	color: #fff;
+	font-size: 48px;
+    padding-bottom: 30px;
+}
+
+.container-fluid.white-back{
+	height: 100%;
+	background-color:rgba(0,0,0,0.8);
+}
+
+.container-fluid.homepage{
+	background-image: url("../images/background.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	height: 100%;
+	color: #fff; 
+}
+
+.about-us,
+.see-appoint,
+.settings,
+.log{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+	url("../images/background.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	height: 100%;
+	color: #fff;
+	padding-bottom: 50px;
+	min-height: 100vh;
+}
+
+#login_div, #register_div, .settings .container{
+	max-width: 580px;
+	margin: auto;
+	padding-top: 100px;
+}
+#login_div .form-group,
+#register_div .form-group,
+.settings .form-group{
+	margin-bottom: 30px;
+}
+
+.scroll{
+	overflow-y: scroll;
+	width: 100%;
+	border: 5px solid #171313;
+	max-height: calc(100% - 130px);
+	margin-top: 50px;
+	background: #fff;
+	height: auto;
+}
+.profile-homepage{
+	background-color: rgba(0, 0, 0, .5);
+    border-radius: 13px;
+    color: #fff;
+    margin-top: 50px;
+}
+.profile-homepage h2{
+	padding: 15px;
+}
+.profile-homepage img{
+	max-width: 70%;
+}
+.profile-homepage .information{
+	margin-top: 15px;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+.profile-homepage .information p{
+	margin-bottom: 10px;
+}
+
+#modal{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.94);
+	display: none;
+	align-items: center;
+	justify-content: center;
+
+}
+#close {
+	color: #fff;
+	font-size: 55px;
+	align-self: flex-start;
+
+}
+
+#modal_img {
+	align-self: center;
+	margin: auto;
+}
+
+.errors{
+	padding-bottom: 15px;
+}
+
+.errors p{
+	color: #e06f6f;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.laundry-list img,
+.cooking-list img{
+	max-width: 70%;
+}
+
+.laundry-single,
+.cooking-single{
+	margin-top: 25px;
+    border-radius: 13px;
+    background: #e9ecef38;
+}
+
+.laundry-background,
+.cooking-background{
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	height: 100%;
+	color: #fff;
+	padding-bottom: 50px;
+	min-height: 100vh;
+}
+.laundry-background{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+	url("../images/laundry.jpg");
+}
+.cooking-background{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+	url("../images/kitchen.png");
+}
+
+.laundry-background h1,
+.cooking-background h1{
+	padding-top: 15px;
+}
+
+.laundry-background h6,
+.cooking-background h6{
+	padding: 10px 0;
+}
+.laundry-single a,
+.cooking-single a{
+	color: #000;
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 15px;
+}
+.laundry-single a:hover,
+.cooking-single a:hover{
+    background: #bafd70;
+   	text-decoration: none;
+}
+
+.add_appoint form{
+	max-width: 300px;
+	margin: auto;
+}
+.padding-bottom-15{
+	padding-bottom: 15px;
+}
+.padding-top-15{
+	padding-top: 15px;
+}
+.about-us .container{
+	font-size: 23px;
+    max-width: 900px;
+}
+.about-us .container p{
+	text-align: left;
+}
+.see-appoint table{
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.see-appoint table thead{
+	background: rgba(255,255,255,0.4);
+}
+.see-appoint a{
+	color: #fff;
+    background: #ff4123;
+    padding: 4px 15px 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.see-appoint a:hover{
+	background: red;
+}
+.menu .navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+}
+.menu .navbar-dark .navbar-nav .nav-link:hover{
+	color: #c3c3c3;
+}
+.menu .dropdown .dropdown-menu{
+	background-color: #343a40;
+}
+.menu .dropdown .dropdown-menu a{
+	color: #fff;
+}
+.menu .dropdown .dropdown-menu a:hover{
+	color: #000;
+}
+
+.menu .dropdown-toggle::after{
+	margin-left: 0px;
+    vertical-align: 2px;
+}
+
+.menu .dropdown-menu.show{
+	right: -15px;
+	left: auto;
+}
+
+.container-fluid.homepage{
+	color: #000;
+}
+
+.container.add_post{
+	text-align: left;
+	background: #fff;
+	padding: 15px 15px 30px;
+	border-bottom: 1px solid #c3c3c3;
+}
+.add_post img{
+	border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.add_post textarea{
+	width: 100%;
+	border-color: #c3c3c3;
+}
+.add_post textarea:focus{
+	border-color: #c3c3c3;
+	outline: none;
+}
+.add_post #picpost{
+	max-width: 80%;
+    float: left;
+    padding-left: 0;
+    border: none;
+}
+.add_post .btn{
+	padding: 5px 30px;
+}
+.datepost{
+	font-size: 17px;
+    padding: 0 0 20px 0;
+    margin: 0;
+    line-height: 36px;
+}
+.post h6{
+	font-size: 26px;
+    float: left;
+    padding-right: 15px;
+    font-weight: 600;
+}
+.post img{
+	max-width: 100%;
+}
+.post{
+	margin: 0;
+    border-bottom: 1px solid #c3c3c3;
+    background: #fff;
+    padding-top: 50px;
+}
+.post .container{
+	position: relative;
+}
+.height-100{
+	height: 100%;
+}
+.delete-post{
+	position: absolute;
+    right: 7px;
+    top: 0;
+}
+.delete-post img{
+	max-width: 30px;
+}
