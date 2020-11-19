@@ -194,6 +194,15 @@ h2.logo-login{
 .about-us .container p{
 	text-align: left;
 }
+.about-us a{
+	color: #459fff;
+}
+.about-us a:hover{
+	color: #459fff;
+}
+.about-us img{
+	max-width: 300px;
+}
 .see-appoint table{
 	color: #fff;
 	border: 1px solid #fff;

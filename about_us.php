@@ -11,7 +11,14 @@ include $abs. "/menu.php";
 			<h1 class="padding-bottom-15 padding-top-15">About me</h1>
 			<p>ChoreTime is an app to solve the congestion issues that frequently plagues dormitories around the world. This is a project for my course 
 			"Software Development Project". I am intending to recruit for my team and expand on this project and make it something official. I hope you guys enjoy 
-			this concept. Please write to me with feedbacks and suggestions: armandhrubo@outlook.com</p>
+			this concept. Please write to me with feedbacks and suggestions: 
+			<a href="mailto:armandhrubo@outlook.com">armandhrubo@outlook.com</a>
+			</p>
+			<div class="text-center">
+				<img src="images/arman.jpg" alt="">	
+			</div>
+
+
 		</div>
 	</div>
 </div>
