@@ -25,13 +25,31 @@ I will start off writing the back-end codes, at first. On week 2, I will hopeful
 
 14/11/2020 - Adding message board functionality for a better user experience
 
+16/11/2020 - Made some more functionality changes
+
+18/11/2020 - Testig complete. Ready for Submission.
+
 # TECHNOLOGY STACK
 
 HTML/CSS, PHP, MySQL.
 
 # DOCUMENTATION 
 
-The user will login to the Web app. After logging in, they will click on the tab on the top header for amenities. Then, they will choose between cooking and Laundry. Based on their selection, they will be able to see if the status of cooking or laundry is busy presently. If it's occupied, they will make an appointment for a certain time. 35 minutes is allocated to cooking, 45 mins allocated for laundry. Once their chore is finished, they will click "Finish". So, next user can have their turn.
+http://choretime.infinityfreeapp.com/
+
+The user will login to the Web app. After logging in, they will click on the tab on the top header for amenities. Then, they will choose between cooking and Laundry. Based on their selection, they will be able to see if the status of cooking or laundry is busy presently. If it's occupied, they will make an appointment for a certain time. 60 minutes allocated per appointment.
+
+To run the project. Download XAMPP https://www.apachefriends.org 
+
+Install XAMPP, paste the project folder inside (C:\xampp\htdocs).
+
+Start XAMPP, Run MySQL and Apache.
+
+Open up browser and type localhost/choretime
+
+Done!
+
+
 
 # PLANNED FOLLOW-UP
 
