@@ -45,9 +45,9 @@ Install XAMPP, paste the project folder inside (C:\xampp\htdocs).
 
 Start XAMPP, Run MySQL and Apache.
 
-Go to localhost/phpmyadmin and import the choretime.sql file
+Go to localhost/phpmyadmin in your browser and import the choretime.sql file
 
-Open up browser and type localhost/choretime
+Type localhost/choretime in the URL bar
 
 Done!
 
